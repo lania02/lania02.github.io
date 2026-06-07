@@ -1,0 +1,748 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lai Jiaqi — Human–AI Trust & Algorithmic Governance</title>
+  <meta name="description"
+    content="Lai Jiaqi is an MSc graduate from Nanyang Technological University. Research interests: human–AI trust dynamics, algorithmic delegation and accountability, and institutional design for autonomous AI systems." />
+
+  <!-- Open Graph (for link previews on social / messaging) -->
+  <meta property="og:title"       content="Lai Jiaqi — Human–AI Trust & Algorithmic Governance" />
+  <meta property="og:description" content="MSc (NTU) | BSc (UCL) — researching human–AI trust dynamics, algorithmic delegation, and institutional design for autonomous AI." />
+  <meta property="og:type"        content="website" />
+  <!-- TODO: <meta property="og:image" content="images/og.png" /> -->
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,400;1,400&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+
+<!-- ======================================================
+     NAVIGATION
+     ====================================================== -->
+<nav class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="#home" class="nav-logo">Lai Jiaqi</a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#research">Research</a></li>
+      <li><a href="#publications">Publications</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- ======================================================
+     HERO
+     ====================================================== -->
+<section class="hero" id="home">
+  <div class="container">
+    <div class="hero-grid">
+
+      <!-- Text -->
+      <div class="hero-text">
+        <span class="hero-eyebrow">Human–AI Trust Dynamics · Algorithmic Delegation · Autonomous AI &amp; Society</span>
+        <h1 class="hero-name">Lai Jiaqi</h1>
+        <p class="hero-role">MSc Information Studies · Nanyang Technological University</p>
+        <p class="hero-degree">BSc Psychology &amp; Language Sciences · University College London</p>
+
+        <p class="hero-question">
+          How do AI controversies erode public trust, and what institutional
+          architectures — grounded in mechanism design and collective value
+          alignment — can keep algorithmic delegation accountable?
+        </p>
+
+        <div class="hero-actions">
+          <a href="#publications" class="btn btn-primary">Publications</a>
+          <a href="#research"     class="btn btn-outline">Research</a>
+          <!-- TODO: replace with your actual CV file -->
+          <a href="papers/cv.pdf" class="btn btn-outline" target="_blank">CV</a>
+        </div>
+
+        <div class="hero-social">
+          <!-- TODO: replace # with your actual profile URLs -->
+          <a href="#" target="_blank" rel="noopener">Google Scholar</a>
+          <a href="#" target="_blank" rel="noopener">GitHub</a>
+          <a href="#" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="#" target="_blank" rel="noopener">Twitter / X</a>
+        </div>
+      </div>
+
+      <!-- Avatar -->
+      <div class="avatar" id="avatar">
+        <img src="images/photo.jpg" alt="Lai Jiaqi" />
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ======================================================
+     RESEARCH
+     ====================================================== -->
+<section class="section section-alt" id="research">
+  <div class="container">
+    <h2 class="section-title">Research</h2>
+    <p class="section-sub">
+      My work sits at the intersection of computational social science,
+      mechanism design, and AI governance, unified by one question:
+      how do we build institutions that keep AI delegation trustworthy?
+    </p>
+
+    <div class="research-grid">
+
+      <!-- Card 1 -->
+      <div class="r-card">
+        <div class="r-icon">
+          <!-- Network / trust dynamics icon -->
+          <svg viewBox="0 0 24 24">
+            <path d="M17 2l4 4-4 4"/>
+            <path d="M21 6H9a5 5 0 0 0 0 10h2"/>
+            <path d="M7 22l-4-4 4-4"/>
+            <path d="M3 18h12a5 5 0 0 0 0-10h-2"/>
+          </svg>
+        </div>
+        <h3>Human–AI Trust Dynamics</h3>
+        <p>
+          Modelling how AI controversy events propagate through social networks
+          and erode public trust, using coupled Hawkes–Friedkin–Johnsen
+          dynamical systems. Derives spectral stability conditions
+          (ρ(J<sub>2n</sub>) &lt; 1) for governance collapse under
+          echo-chamber topologies.
+        </p>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="r-card">
+        <div class="r-icon">
+          <!-- Delegation / handoff icon -->
+          <svg viewBox="0 0 24 24">
+            <circle cx="12" cy="12" r="3"/>
+            <path d="M2 12s3.636-7 10-7 10 7 10 7-3.636 7-10 7S2 12 2 12z"/>
+          </svg>
+        </div>
+        <h3>Algorithmic Delegation &amp; Accountability</h3>
+        <p>
+          Studying how users grant or withdraw decision-making authority to
+          LLM-powered agents, and what design features shape trust perception
+          and perceived control. Combines mixed-methods experiments (N = 86)
+          with SEM/CFA latent-variable modelling.
+        </p>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="r-card">
+        <div class="r-icon">
+          <!-- Scale / justice icon -->
+          <svg viewBox="0 0 24 24">
+            <path d="M12 3v19"/>
+            <path d="M5 21h14"/>
+            <path d="M3 10l4-6 4 6c0 2.21-1.79 4-4 4S3 12.21 3 10z"/>
+            <path d="M13 10l4-6 4 6c0 2.21-1.79 4-4 4s-4-1.79-4-4z"/>
+          </svg>
+        </div>
+        <h3>Institutional Design for Autonomous AI</h3>
+        <p>
+          Designing governance frameworks — grounded in mechanism design,
+          Bayesian Truth Serum, and agent-based modelling — for AI-enabled
+          public resource allocation. Targets two pathologies: moral
+          responsibility diffusion and delegation blindspots.
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ======================================================
+     PUBLICATIONS
+     ====================================================== -->
+<section class="section" id="publications">
+  <div class="container">
+    <h2 class="section-title">Publications</h2>
+    <p class="section-sub">
+      Reverse chronological order.
+      <a href="papers/cv.pdf" class="inline-link" target="_blank">Full CV →</a>
+    </p>
+
+    <div class="pub-list">
+
+      <!-- ── Peer-Reviewed ── -->
+      <article class="pub-item">
+        <div class="pub-year-col">
+          <span class="pub-year">2025</span>
+          <span class="pub-venue">Virtual Reality<br/>JCR Q1</span>
+        </div>
+        <div class="pub-body">
+          <p class="pub-title">
+            Comparison of hand tracking-based and controller-based interaction
+            in a consumer virtual reality game
+          </p>
+          <p class="pub-authors">
+            Steed, A., &amp; <strong>Lai, J.</strong>
+          </p>
+          <p class="pub-abstract">
+            A controlled VR study comparing two interaction modalities —
+            hand tracking versus traditional controllers — in a consumer
+            game setting. Contributes empirical evidence on how input
+            modality shapes user behaviour, presence, and performance.
+          </p>
+          <div class="pub-tags">
+            <span class="ptag">Virtual Reality</span>
+            <span class="ptag">Human-Computer Interaction</span>
+            <span class="ptag">Interaction Modalities</span>
+          </div>
+          <div class="pub-links">
+            <a href="https://doi.org/10.1007/s10055-025-01133-8" class="plink" target="_blank">DOI</a>
+            <button class="plink-btn" onclick="toggleBibtex(this)">BibTeX</button>
+          </div>
+          <div class="bibtex-panel" style="display:none;">
+            <pre>@article{steed2025vr,
+  title   = {Comparison of hand tracking-based and controller-based
+             interaction in a consumer virtual reality game},
+  author  = {Steed, Anthony and Lai, Jiaqi},
+  journal = {Virtual Reality},
+  volume  = {29},
+  number  = {3},
+  pages   = {120},
+  year    = {2025}
+}</pre>
+            <button class="copy-btn" onclick="copyBibtex(this)">Copy</button>
+          </div>
+        </div>
+      </article>
+
+      <!-- ── Working Paper 1 ── -->
+      <article class="pub-item">
+        <div class="pub-year-col">
+          <span class="pub-year">2025</span>
+          <span class="pub-venue">Working Paper<br/>Submitted · AAAI/ACM AIES 2026</span>
+        </div>
+        <div class="pub-body">
+          <p class="pub-title">
+            Stability of AI Governance Systems: A Coupled Dynamics Model
+            of Public Trust and Social Disruptions
+          </p>
+          <p class="pub-authors">
+            <strong>Lai, J.</strong>, Hou, L., &amp; Huang, W.
+          </p>
+          <p class="pub-abstract">
+            Derives closed-form spectral stability conditions
+            (ρ(J<sub>2n</sub>) &lt; 1) for a bidirectionally coupled
+            Hawkes–Friedkin–Johnsen trust dynamics system. Demonstrates
+            irreversible governance collapse under echo-chamber topologies
+            and identifies tipping-point thresholds for institutional
+            intervention.
+          </p>
+          <div class="pub-tags">
+            <span class="ptag">AI Governance</span>
+            <span class="ptag">Dynamical Systems</span>
+            <span class="ptag">Public Trust</span>
+            <span class="ptag">Hawkes Process</span>
+          </div>
+          <div class="pub-links">
+            <span class="plink" style="opacity:.6; cursor:default;">Manuscript in preparation</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- ── Working Paper 2 ── -->
+      <article class="pub-item">
+        <div class="pub-year-col">
+          <span class="pub-year">2024</span>
+          <span class="pub-venue">Working Paper<br/>ACM CHI / CHB</span>
+        </div>
+        <div class="pub-body">
+          <p class="pub-title">
+            Can freedom lead to trust &amp; satisfy? How user autonomy
+            influences trust perception in LLM-powered conversational agents
+          </p>
+          <p class="pub-authors">
+            <strong>Lai, J.</strong> &amp; Dechant, M.
+          </p>
+          <p class="pub-abstract">
+            A mixed-methods study (N = 86) challenging standard assumptions
+            about user autonomy and trust in human–AI interaction.
+            Employs formal SEM/CFA latent-variable modelling to link
+            AI system design choices to delegation and adoption outcomes.
+          </p>
+          <div class="pub-tags">
+            <span class="ptag">Human–AI Interaction</span>
+            <span class="ptag">User Autonomy</span>
+            <span class="ptag">Trust</span>
+            <span class="ptag">SEM/CFA</span>
+          </div>
+          <div class="pub-links">
+            <span class="plink" style="opacity:.6; cursor:default;">Preprint in preparation</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- ── Academic Writing ── -->
+      <article class="pub-item">
+        <div class="pub-year-col">
+          <span class="pub-year">2024</span>
+          <span class="pub-venue">MSc Project<br/>Full Marks</span>
+        </div>
+        <div class="pub-body">
+          <p class="pub-title">
+            The Disinformation Campaigns about the Israel-Palestine
+            Conflict in the Digital Era
+          </p>
+          <p class="pub-authors">
+            <strong>Lai, J.</strong>, Wang, T., &amp; Li, X.
+          </p>
+          <p class="pub-abstract">
+            Analyses the systemic impact of generative AI on state-sponsored
+            computational propaganda through the lens of Strategic Narrative
+            Warfare theory. Awarded full marks as MSc Critical Inquiry Project;
+            available as a writing sample upon request.
+          </p>
+          <div class="pub-tags">
+            <span class="ptag">Disinformation</span>
+            <span class="ptag">Generative AI</span>
+            <span class="ptag">Strategic Narrative</span>
+          </div>
+          <div class="pub-links">
+            <span class="plink" style="opacity:.6; cursor:default;">Available upon request</span>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ======================================================
+     EXPERIENCE
+     ====================================================== -->
+<section class="section section-alt" id="experience">
+  <div class="container">
+    <h2 class="section-title">Experience</h2>
+    <p class="section-sub">
+      Research, policy, and industry roles across Singapore, the UK, and China.
+      <a href="papers/cv.pdf" class="inline-link" target="_blank">Full CV →</a>
+    </p>
+
+    <h3 class="exp-subhead">Research &amp; Policy</h3>
+    <div class="exp-list">
+
+      <!-- AI Singapore -->
+      <article class="exp-item">
+        <div class="exp-meta">
+          <span class="exp-date">Apr. 2026 – present</span>
+          <span class="exp-loc">Singapore</span>
+        </div>
+        <div class="exp-body">
+          <h4 class="exp-role">Research Assistant <span class="exp-org">· AI Singapore</span></h4>
+          <p class="exp-note">under Dr. William Tjhi</p>
+          <ul class="exp-points">
+            <li>Building a <strong>self-evolution agentic framework</strong> that iteratively
+                refines its own policy rules, deployed inside a policy simulation sandbox
+                for stress-testing adaptive regulation on the Barcelona homelessness problem.</li>
+            <li>Driving the evolution loop with competing normative agent personas
+                (utilitarian, egalitarian) that debate simulated policy outcomes, so rules
+                evolve through structured moral argumentation.</li>
+            <li>Validating evolved policies via <strong>Agent-Based Modelling</strong> of
+                regulator–developer–public interaction. Manuscript targeting AAAI (July 2026).</li>
+          </ul>
+        </div>
+      </article>
+
+      <!-- NTU School of Economics -->
+      <article class="exp-item">
+        <div class="exp-meta">
+          <span class="exp-date">Jan. 2025 – Jul. 2025</span>
+          <span class="exp-loc">Singapore</span>
+        </div>
+        <div class="exp-body">
+          <h4 class="exp-role">Independent Research <span class="exp-org">· NTU School of Economics</span></h4>
+          <p class="exp-note">PhD-level Mathematical Economics</p>
+          <ul class="exp-points">
+            <li>Constructed a discrete-time <strong>coupled dynamical system</strong>
+                (Hawkes process × Friedkin–Johnsen) characterising bidirectional feedback
+                between AI controversy events and public trust evolution.</li>
+            <li>Derived Jacobian-based spectral stability conditions
+                (ρ(J<sub>2n</sub>) &lt; 1), establishing tipping-point thresholds for trust
+                collapse across heterogeneous network topologies.</li>
+            <li>Applied <strong>mechanism design</strong> (incentive-compatible elicitation)
+                to model AI governance under asymmetric information.</li>
+          </ul>
+        </div>
+      </article>
+
+      <!-- UCLIC -->
+      <article class="exp-item">
+        <div class="exp-meta">
+          <span class="exp-date">Sep. 2022 – Apr. 2024</span>
+          <span class="exp-loc">London, UK</span>
+        </div>
+        <div class="exp-body">
+          <h4 class="exp-role">Research Assistant <span class="exp-org">· UCL Interaction Centre (UCLIC)</span></h4>
+          <p class="exp-note">under Prof. Yvonne Rogers (UCLIC Director)</p>
+          <ul class="exp-points">
+            <li>Designed and executed a <strong>mixed-methods within-subject experiment</strong>
+                (N = 86) comparing LLM-powered and branching-dialogue agents.</li>
+            <li>Employed non-parametric inference and moderated linear regression, complemented
+                by thematic analysis of open-ended responses.</li>
+            <li>Key finding: higher perceived autonomy did not increase trust or satisfaction —
+                users prioritise problem-solving capability over interaction freedom.</li>
+          </ul>
+        </div>
+      </article>
+
+      <!-- NTU WKWSCI -->
+      <article class="exp-item">
+        <div class="exp-meta">
+          <span class="exp-date">Sep. 2024 – Apr. 2025</span>
+          <span class="exp-loc">Singapore</span>
+        </div>
+        <div class="exp-body">
+          <h4 class="exp-role">Machine Learning Researcher <span class="exp-org">· NTU WKWSCI</span></h4>
+          <ul class="exp-points">
+            <li>Analysed cross-cultural AI sentiment dynamics on Weibo and X/Twitter using
+                <strong>NLP pipelines</strong> (VADER, NRCLex, BERTopic, PageRank).</li>
+            <li>Trained and benchmarked transformer and recurrent classifiers
+                (BERT, GRU, LSTM) for cross-lingual sentiment under distribution shift.</li>
+          </ul>
+        </div>
+      </article>
+
+      <!-- UCL Computer Science -->
+      <article class="exp-item">
+        <div class="exp-meta">
+          <span class="exp-date">Oct. 2023 – May. 2024</span>
+          <span class="exp-loc">London, UK</span>
+        </div>
+        <div class="exp-body">
+          <h4 class="exp-role">Research Assistant <span class="exp-org">· UCL Computer Science</span></h4>
+          <ul class="exp-points">
+            <li>Designed a <strong>controlled VR study</strong> on human behavioural responses
+                to interaction modalities; contributed to statistical analysis and manuscript
+                writing — published in <em>Virtual Reality</em>.</li>
+          </ul>
+        </div>
+      </article>
+
+      <!-- CDRF -->
+      <article class="exp-item">
+        <div class="exp-meta">
+          <span class="exp-date">Oct. 2024 – Mar. 2025</span>
+          <span class="exp-loc">Beijing, China</span>
+        </div>
+        <div class="exp-body">
+          <h4 class="exp-role">Policy Research Assistant <span class="exp-org">· China Development Research Foundation</span></h4>
+          <ul class="exp-points">
+            <li>Evaluated AI deployment gaps between policy intent and real-world adoption in
+                education and rural contexts; identified incentive misalignments shaping
+                local governance outcomes.</li>
+            <li>Synthesised cross-disciplinary evidence into policy evaluation reports for
+                senior stakeholders; defined success indicators and risk frameworks for
+                national AI governance programmes.</li>
+          </ul>
+        </div>
+      </article>
+
+    </div>
+
+    <h3 class="exp-subhead">Industry</h3>
+    <div class="exp-list">
+
+      <!-- Golden Gate Ventures -->
+      <article class="exp-item">
+        <div class="exp-meta">
+          <span class="exp-date">Jun. 2025 – Aug. 2025</span>
+          <span class="exp-loc">Singapore</span>
+        </div>
+        <div class="exp-body">
+          <h4 class="exp-role">Machine Learning Intern <span class="exp-org">· Golden Gate Ventures</span></h4>
+          <ul class="exp-points">
+            <li>Deployed a <strong>multi-agent AI pipeline</strong> over heterogeneous data
+                sources, reducing research turnaround.</li>
+            <li>Fine-tuned BERT and Qwen for domain-specific classification; first-hand exposure
+                to production-scale AI deployment decisions.</li>
+          </ul>
+        </div>
+      </article>
+
+      <!-- Canopy -->
+      <article class="exp-item">
+        <div class="exp-meta">
+          <span class="exp-date">Aug. 2025 – Jan. 2026</span>
+          <span class="exp-loc">Singapore</span>
+        </div>
+        <div class="exp-body">
+          <h4 class="exp-role">Data &amp; Sales Enablement Executive <span class="exp-org">· Canopy</span></h4>
+          <ul class="exp-points">
+            <li>Developed a <strong>quantitative pricing model</strong> (logistic regression, GAM)
+                through iterative coordination with operational teams; coordinated
+                cross-departmental data integration for investor due diligence.</li>
+          </ul>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ======================================================
+     PROJECTS
+     ====================================================== -->
+<section class="section section-alt" id="projects">
+  <div class="container">
+    <h2 class="section-title">Projects</h2>
+    <p class="section-sub">
+      Research projects and tools. More in progress.
+    </p>
+
+    <div class="proj-grid">
+
+      <div class="proj-card soon">
+        <span class="proj-badge">In Progress</span>
+        <h3>AI for Public Governance (AI4PG): Mechanism Design &amp; Collective Value Alignment</h3>
+        <p>
+          Developing a framework for collective value alignment in
+          AI-enabled resource allocation, targeting two governance
+          pathologies: moral responsibility diffusion and delegation
+          blindspots. Features a Bayesian Truth Serum elicitation platform
+          embedded in Agent-Based Modelling to extract incentive-compatible
+          governance preferences and overcome pluralistic ignorance.
+        </p>
+        <div class="proj-links">
+          <span class="proj-link" style="opacity:.5; cursor:default;">Prototype in development</span>
+        </div>
+      </div>
+
+      <div class="proj-card soon">
+        <span class="proj-badge">In Progress</span>
+        <h3>Coupled Trust–Disruption Dynamics Simulator</h3>
+        <p>
+          An interactive simulation of the Hawkes–Friedkin–Johnsen coupled
+          dynamical system, allowing users to explore how AI controversy
+          events propagate through networks of varying topology and drive
+          irreversible governance collapse. Evaluates cross-domain transfer
+          of governance frameworks via simulation-based stress testing.
+        </p>
+        <div class="proj-links">
+          <span class="proj-link" style="opacity:.5; cursor:default;">Demo coming soon</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ======================================================
+     ABOUT
+     ====================================================== -->
+<section class="section" id="about">
+  <div class="container">
+    <h2 class="section-title">About</h2>
+    <div class="about-grid">
+
+      <div class="about-bio">
+        <p>
+          I hold an MSc in Information Studies from Nanyang Technological
+          University and a BSc in Psychology &amp; Language Sciences from
+          University College London. My research sits at the intersection
+          of computational social science, mechanism design, and AI
+          governance.
+        </p>
+        <p>
+          My work combines formal modelling with behavioural experiments:
+          I build coupled dynamical systems to characterise how AI
+          controversies erode public trust, and I run empirical studies
+          to understand how people delegate to — and hold accountable —
+          AI-powered agents. I am also developing governance frameworks
+          that address moral responsibility diffusion in AI-enabled
+          public resource allocation.
+        </p>
+        <p>
+          I am currently a Research Assistant at AI Singapore (under
+          Dr. William Tjhi), building self-evolving agentic frameworks
+          for policy simulation. I have previously conducted research at
+          the UCL Interaction Centre (under Prof. Yvonne Rogers), NTU
+          School of Economics, and the China Development Research
+          Foundation, with industry experience in machine learning
+          deployment and quantitative modelling.
+        </p>
+
+        <div class="skills">
+          <h3>Skills</h3>
+          <p class="skills-label">Formal &amp; Quantitative Methods</p>
+          <div class="skill-tags">
+            <span class="ptag">Multi-Agent Systems</span>
+            <span class="ptag">Agent-Based Modelling</span>
+            <span class="ptag">Coupled Dynamical Systems</span>
+            <span class="ptag">Hawkes Process</span>
+            <span class="ptag">Mechanism Design</span>
+            <span class="ptag">Bayesian Truth Serum</span>
+            <span class="ptag">MCMC</span>
+            <span class="ptag">Game Theory</span>
+          </div>
+          <p class="skills-label">Machine Learning &amp; Programming</p>
+          <div class="skill-tags">
+            <span class="ptag">Python</span>
+            <span class="ptag">TensorFlow</span>
+            <span class="ptag">BERT / Qwen fine-tuning</span>
+            <span class="ptag">GRU / LSTM / RNN</span>
+            <span class="ptag">NLP (VADER, BERTopic)</span>
+            <span class="ptag">CrewAI / LangChain</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="about-edu">
+        <h3>Education</h3>
+        <div class="timeline">
+
+          <div class="tl-item">
+            <div class="tl-dot"></div>
+            <p class="tl-year">Aug. 2024 – Jul. 2025</p>
+            <p class="tl-title">MSc Information Studies</p>
+            <p class="tl-place">Nanyang Technological University</p>
+            <p class="tl-loc">Singapore</p>
+          </div>
+
+          <div class="tl-item">
+            <div class="tl-dot"></div>
+            <p class="tl-year">Sep. 2021 – Jun. 2024</p>
+            <p class="tl-title">BSc Psychology &amp; Language Sciences</p>
+            <p class="tl-place">University College London</p>
+            <p class="tl-loc">London, United Kingdom</p>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ======================================================
+     CONTACT
+     ====================================================== -->
+<section class="section section-alt" id="contact">
+  <div class="container">
+    <h2 class="section-title">Contact</h2>
+    <p class="section-sub">
+      Happy to discuss research ideas, potential collaborations, or questions
+      about my work.
+    </p>
+
+    <div class="contact-grid">
+
+      <div class="c-info">
+        <div class="c-block">
+          <span class="c-label">Email</span>
+          <a href="mailto:jiaqi.lai.29@gmail.com">jiaqi.lai.29@gmail.com</a>
+        </div>
+        <div class="c-block">
+          <span class="c-label">Location</span>
+          Singapore
+        </div>
+      </div>
+
+      <div class="c-links">
+        <!-- TODO: replace # with actual URLs -->
+        <a href="#" class="c-btn" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/></svg>
+          Google Scholar
+        </a>
+        <a href="#" class="c-btn" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+          GitHub
+        </a>
+        <a href="#" class="c-btn" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+          LinkedIn
+        </a>
+        <a href="papers/cv.pdf" class="c-btn" target="_blank">
+          <svg viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+          Download CV
+        </a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ======================================================
+     FOOTER
+     ====================================================== -->
+<footer class="footer">
+  <div class="container">
+    <p>© <span id="year"></span> Lai Jiaqi</p>
+  </div>
+</footer>
+
+<!-- ======================================================
+     JAVASCRIPT
+     ====================================================== -->
+<script>
+  // Auto-update copyright year
+  document.getElementById('year').textContent = new Date().getFullYear();
+
+  // Nav: scroll shadow
+  const nav = document.getElementById('nav');
+  window.addEventListener('scroll', () => {
+    nav.classList.toggle('scrolled', window.scrollY > 40);
+  }, { passive: true });
+
+  // Nav: mobile toggle
+  document.getElementById('navToggle').addEventListener('click', () => {
+    document.getElementById('navLinks').classList.toggle('open');
+  });
+
+  // Nav: close mobile menu on link click
+  document.querySelectorAll('.nav-links a').forEach(link => {
+    link.addEventListener('click', () => {
+      document.getElementById('navLinks').classList.remove('open');
+    });
+  });
+
+  // Nav: active section highlight on scroll
+  const sections = document.querySelectorAll('section[id]');
+  const navAnchors = document.querySelectorAll('.nav-links a');
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(e => {
+      if (e.isIntersecting) {
+        navAnchors.forEach(a => {
+          a.classList.toggle('active', a.getAttribute('href') === '#' + e.target.id);
+        });
+      }
+    });
+  }, { rootMargin: '-40% 0px -55% 0px' });
+  sections.forEach(s => observer.observe(s));
+
+  // Publications: BibTeX toggle
+  function toggleBibtex(btn) {
+    const panel = btn.closest('.pub-body').querySelector('.bibtex-panel');
+    const hidden = panel.style.display === 'none';
+    panel.style.display = hidden ? 'block' : 'none';
+    btn.textContent = hidden ? 'Hide BibTeX' : 'BibTeX';
+  }
+
+  // Publications: copy BibTeX
+  function copyBibtex(btn) {
+    const text = btn.previousElementSibling.textContent;
+    navigator.clipboard.writeText(text).then(() => {
+      btn.textContent = 'Copied!';
+      setTimeout(() => { btn.textContent = 'Copy'; }, 2000);
+    });
+  }
+</script>
+
+</body>
+</html>
