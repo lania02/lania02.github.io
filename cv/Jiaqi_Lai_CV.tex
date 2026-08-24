@@ -1,0 +1,131 @@
+% !TEX program = xelatex
+% Tailored CV: GovAI Research Scholar application
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[top=0.8cm,bottom=1.25cm,left=1.65cm,right=1.65cm]{geometry}
+\usepackage{fontspec}
+\setmainfont{Times New Roman}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{microtype}
+\usepackage{titlesec}
+\usepackage{xcolor}
+
+\hypersetup{colorlinks=true,urlcolor=blue!65!black,linkcolor=blue!65!black}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\setlist[itemize]{leftmargin=1.25em,topsep=1.5pt,itemsep=1.2pt,parsep=0pt,partopsep=0pt}
+\titleformat{\section}{\normalsize\bfseries\scshape}{}{0pt}{}[\vspace{-2pt}\titlerule]
+\titlespacing*{\section}{0pt}{7pt}{3pt}
+
+\newcommand{\cvheading}[4]{%
+  \noindent\textbf{#1}\hfill\textit{#2}\\[-1pt]
+  \textit{#3}\hfill\textit{#4}\\[-5pt]
+}
+
+\begin{document}
+
+\begin{center}
+  {\LARGE\bfseries Jiaqi Lai}\\[3pt]
+  Singapore \quad|\quad +65\,84088226 \quad|\quad
+  \href{mailto:jiaqi.lai.29@gmail.com}{jiaqi.lai.29@gmail.com}
+\end{center}
+
+\vspace{-2pt}
+\section{Profile}
+Researcher using formal and computational methods to study how AI-related disruptions interact with public trust, information environments, and policy implementation. Develops evidence-constrained approaches for evaluating AI-enabled systems in complex social settings, with a focus on robustness, uncertainty, and human oversight. Research experience spans computational social science, policy analysis, and human-centred AI in Singapore, China, and the UK.
+
+\section{Selected Research Outputs}
+\textbf{Lai, J.}, Hou, L., \& Huang, W. (2026). ``Stability of AI Governance Systems: A Coupled Dynamics Model of Public Trust and Social Disruptions.'' \textit{manuscript preparing for submission to Physical Review E}. \href{https://arxiv.org/abs/2603.20248}{arXiv:2603.20248}.\\[-1pt]
+\textit{First-author work deriving conditions under which public-trust systems recover from, or depart persistently after, AI-related disruptions; combines formal analysis with reproducible simulations across network structures.}
+
+\vspace{3pt}
+Steed, A., \& \textbf{Lai, J.} (2025). ``Comparison of hand tracking-based and controller-based interaction in a consumer virtual reality game.'' \textit{Virtual Reality}, 29, 120. \textbf{[JCR Q1]} \href{https://doi.org/10.1007/s10055-025-01190-5}{doi:10.1007/s10055-025-01190-5}.
+
+\section{Research \& Policy Experience}
+\cvheading{AI Singapore}{Singapore}{Research Assistant, under Dr. William Tjhi}{Apr. 2026 -- Present}
+\begin{itemize}
+  \item Designed and implemented a human-governed extension layer for an existing policy-simulation ABM: mechanism-scope gaps trigger LLM-authored candidate modules within a bounded declarative interface.
+  \item Built an auditable staged workflow with provenance labels, deterministic invariant checks, paired-seed causal-direction probes, multi-seed stress tests, versioned artifacts, and explicit human activation.
+  \item Implemented sealed historical reconstruction and blind-forecast backtesting tracks to evaluate policy reasoning without treating similarity to historical policy as success.
+\end{itemize}
+
+\cvheading{Nanyang Technological University, School of Economics}{Singapore}{Independent Research Project, PhD-level Mathematical Economics}{Jan. 2025 -- Jul. 2025}
+\begin{itemize}
+  \item Developed a coupled model of public trust and AI-related events to examine when a governance system can recover from shocks and when feedback produces persistent departure.
+  \item Derived closed-form equilibria, an exact spectral recoverability criterion ($\rho(J_{2n})<1$), and a conditional bound on topology sensitivity; tested self-excitation, memory, heterogeneous response, and network effects through reproducible simulations.
+  \item Separated equilibrium heterogeneity from stability across random, echo-chamber, and star/KOL network structures.
+\end{itemize}
+
+\cvheading{China Development Research Foundation}{Beijing, China}{Policy Research Assistant}{Oct. 2024 -- Mar. 2025}
+\begin{itemize}
+  \item Evaluated gaps between AI-policy intent and deployment in education and rural contexts, identifying structural barriers and incentive misalignments.
+  \item Synthesised cross-disciplinary evidence into policy evaluation reports for senior stakeholders, defining success indicators and risk frameworks for AI policy programmes.
+\end{itemize}
+
+\cvheading{Nanyang Technological University, WKWSCI}{Singapore}{Machine Learning Researcher}{Sep. 2024 -- Apr. 2025}
+\begin{itemize}
+  \item Analysed cross-platform differences in AI-related sentiment, topics, and information diffusion on Weibo and X/Twitter, comparing public discourse across linguistic and information environments.
+  \item Built cross-platform NLP pipelines and benchmarked transformer and recurrent classifiers for cross-lingual sentiment analysis under distribution shift.
+\end{itemize}
+
+\newpage
+
+\section{Research \& Policy Experience (Continued)}
+\cvheading{UCL Interaction Centre (UCLIC)}{London, UK}{Research Assistant, under Prof. Yvonne Rogers}{Sep. 2022 -- Apr. 2024}
+\begin{itemize}
+  \item Designed and executed a mixed-methods within-subject experiment ($N=86$) comparing LLM-powered and branching-dialogue agents, examining how perceived autonomy relates to trust and satisfaction.
+  \item Applied non-parametric inference and moderated regression to autonomy--trust--satisfaction pathways, complemented by thematic analysis of open-ended responses.
+  \item Found that greater perceived autonomy did not increase trust or satisfaction, highlighting the need for capability-sensitive evaluation and caution when measuring latent trust constructs.
+\end{itemize}
+
+\section{Selected Writing}
+\textbf{Lai, J.}, Wang, T., \& Li, X. (2024). ``The Disinformation Campaigns about the Israel--Palestine Conflict in the Digital Era.'' \textit{MSc Critical Inquiry Project, awarded full marks; available upon request}.\\[-1pt]
+\textit{Analysed the impact of generative AI on state-sponsored computational propaganda through Strategic Narrative Warfare theory.}
+
+\section{Additional Experience}
+\cvheading{Golden Gate Ventures}{Singapore}{Machine Learning Intern}{Jun. 2025 -- Aug. 2025}
+\begin{itemize}
+  \item Developed a multi-agent research pipeline over heterogeneous data sources and fine-tuned BERT and Qwen for domain-specific classification.
+  \item Gained production-facing experience of model selection, output alignment, data quality, and stakeholder evaluation in AI-assisted research workflows.
+\end{itemize}
+\cvheading{UCL Computer Science}{London, UK}{Research Assistant}{Oct. 2023 -- May 2024}
+\begin{itemize}
+  \item Analysed behavioural logs and prepared figures for the consumer-VR study resulting in the peer-reviewed publication listed above.
+\end{itemize}
+\cvheading{Canopy}{Singapore}{Data \& Sales Enablement Executive}{Aug. 2025 -- Jan. 2026}
+\begin{itemize}
+  \item Developed a quantitative pricing model using logistic regression and generalised additive models; coordinated cross-functional data integration for investor due diligence.
+  \item Worked with operational teams to translate model assumptions and outputs into decision-relevant evidence for internal and investor-facing use.
+\end{itemize}
+
+\section{Education}
+\textbf{Nanyang Technological University} $|$ \textit{Singapore}
+\hfill \textit{Aug.\ 2024 -- Jul.\ 2025}\\
+\textit{MSc Information Studies}
+\begin{itemize}
+  \item Completed \textbf{PhD-level Mathematical Economics by special
+        permission} with grade \textbf{A (5/5)}.
+  \item Selected coursework: Machine Learning Implementation; Text \& Web
+        Mining; Disinformation \& Information Professions \textbf{(A, 5/5)}.
+\end{itemize}
+
+\textbf{University College London} $|$ \textit{London, UK}
+\hfill \textit{Sep.\ 2021 -- Jun.\ 2024}\\
+\textit{BSc Psychology \& Language Sciences}
+\begin{itemize}
+  \item Selected coursework: Deep Learning \& Language Processing
+        (1\textsuperscript{st} Class); R \& Statistical Methods
+        (1\textsuperscript{st} Class); Human-Computer Interaction.
+\end{itemize}
+
+
+\section{Methods}
+{\raggedright
+\textbf{AI Evaluation \& Governance:} Evaluator isolation; provenance and versioned lineage; deterministic, invariant, causal-direction, and multi-seed stress tests; historical backtesting; human-gated activation.\par
+\textbf{Formal \& Empirical Methods:} Agent-based and multi-agent simulation; discrete-time dynamical systems; network and spectral analysis; sensitivity analysis; experimental design; non-parametric inference; regression; thematic analysis.\par
+\textbf{Machine Learning \& Programming:} Python, R, SQL, Git; NLP and cross-lingual analysis; BERT/Qwen fine-tuning; reproducible simulation workflows.\par
+}
+
+\end{document}
