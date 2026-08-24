@@ -235,7 +235,7 @@ button { font-family: var(--font); }
 }
 
 /* ---- Projects --------------------------------------------- */
-.proj-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; }
+.proj-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(420px, 100%), 1fr)); gap: 20px; }
 .proj-card {
   background: var(--bg-alt); border: 1px solid var(--border);
   border-radius: var(--radius-lg); padding: 28px;
