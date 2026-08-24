@@ -328,6 +328,16 @@ button { font-family: var(--font); }
 .tl-title { font-size: .93rem; font-weight: 600; margin-bottom: 2px; }
 .tl-place { font-size: .85rem; color: var(--text-sec); margin-bottom: 1px; }
 .tl-loc   { font-size: .78rem; color: var(--text-muted); }
+.tl-points { list-style: none; margin-top: 9px; display: flex; flex-direction: column; gap: 6px; }
+.tl-points li {
+  font-size: .8rem; color: var(--text-sec); line-height: 1.7;
+  position: relative; padding-left: 14px;
+}
+.tl-points li::before {
+  content: ''; position: absolute; left: 0; top: .62em;
+  width: 4px; height: 4px; border-radius: 50%; background: var(--text-muted);
+}
+.tl-points strong { color: var(--text); font-weight: 600; }
 
 /* ---- Contact ---------------------------------------------- */
 .contact-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 64px; align-items: start; }
